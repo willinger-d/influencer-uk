@@ -13,7 +13,7 @@ const Events = [
             +3,
             +2,
             0
-            ),
+        ),
         new Consequences(
             "Die meisten deiner Fans mochten dein Foto. Du bekommst auch Zuspruch von neuen Followern.",
             +2,
@@ -32,7 +32,7 @@ const Events = [
             -1,
             0,
             -1
-            ),
+        ),
         new Consequences(
             "Der Social-Media-Star findet deine Absage blöd und lässt das öffentlich durchblicken.",
             0,
@@ -51,7 +51,7 @@ const Events = [
             -2,
             +3,
             0
-            ),
+        ),
         new Consequences(
             "Deine Fans mögen das Produkt genauso gern wie du.",
             0,
@@ -70,7 +70,7 @@ const Events = [
             0,
             +2,
             -1
-            ),
+        ),
         new Consequences(
             "Du konntest endlich mal wieder ausspannen und Zeit mit deinen Liebsten verbringen.",
             0,
@@ -89,7 +89,7 @@ const Events = [
             +3,
             0,
             0
-            ),
+        ),
         new Consequences(
             "Dass du Kommentare löschst, kritisieren zwar manche Follower, aber dir geht es erstmal besser",
             0,
@@ -108,7 +108,7 @@ const Events = [
             +2,
             0,
             -1
-            ),
+        ),
         new Consequences(
             "Deine Fans verstehen dich zwar, hoffen aber, dass sie trotzdem bald mehr erfahren.",
             0,
@@ -312,7 +312,8 @@ const Events = [
         "Was machst du?",
         "Du hältst dich bedeckt und schleichst dich hinten raus. Du hoffst, dass dich niemand gesehen hat.",
         "Du freust dich über die Aufmerksamkeit und grüßt sie vom Balkon aus.",
-        new Consequences("Du hast Glück, niemand hat das mitbekommen und dein Wohnort wird nicht bestätigt. Du fragst dich aber, woher sie deine Adresse kennen.",
+        new Consequences(
+            "Du hast Glück, niemand hat das mitbekommen und dein Wohnort wird nicht bestätigt. Du fragst dich aber, woher sie deine Adresse kennen.",
             +2,
             -1,
             0,
@@ -320,7 +321,7 @@ const Events = [
         ),
         new Consequences(
             "Nach einer Zeit verlieren sie das Interesse und gehen von alleine wieder. Allerdings ist deine Adresse jetzt bekannt.",
-            +2
+            +2,
             +1,
             0,
             -2
