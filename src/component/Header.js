@@ -25,10 +25,10 @@ const Header = ({end}) => {
                 <Typography variant={"h3"}>Dein Ergebnis</Typography>
             </Toolbar>}
             <Toolbar sx={sx}>
-                <Stat label={"Bekanntheit"} value={noto}/>
-                <Stat label={"Beliebtheit"} value={pop}/>
-                <Stat label={"Geld"} value={money}/>
-                <Stat label={"Privatleben"} value={life}/>
+                <Stat label={"Поінформованість"} value={noto}/>
+                <Stat label={"Популярність"} value={pop}/>
+                <Stat label={"Гроші"} value={money}/>
+                <Stat label={"Приватне життя"} value={life}/>
             </Toolbar>
             {end && <Box p={5}/>}
         </AppBar>
